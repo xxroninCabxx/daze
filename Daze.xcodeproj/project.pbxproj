@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E23536A6AE75E6103440444 /* Pods_Daze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09C5E13CC31ABC1DFEC9862 /* Pods_Daze.framework */; };
 		C44D140B1D734B270011C939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D140A1D734B270011C939 /* AppDelegate.swift */; };
-		C44D140D1D734B270011C939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D140C1D734B270011C939 /* ViewController.swift */; };
+		C44D140D1D734B270011C939 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D140C1D734B270011C939 /* WeatherVC.swift */; };
 		C44D14101D734B270011C939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44D140E1D734B270011C939 /* Main.storyboard */; };
 		C44D14131D734B270011C939 /* Daze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C44D14111D734B270011C939 /* Daze.xcdatamodeld */; };
-		C44D14151D734B270011C939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44D14141D734B270011C939 /* Assets.xcassets */; };
 		C44D14181D734B270011C939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44D14161D734B270011C939 /* LaunchScreen.storyboard */; };
+		C44D14211D73AACC0011C939 /* NexaBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C44D141F1D73AACC0011C939 /* NexaBold.otf */; };
+		C44D14221D73AACC0011C939 /* NexaLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = C44D14201D73AACC0011C939 /* NexaLight.otf */; };
+		C44D14251D73ABFD0011C939 /* TextDropShawdow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D14241D73ABFD0011C939 /* TextDropShawdow.swift */; };
+		C467E19B1D755560005D73F0 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467E19A1D755560005D73F0 /* WeatherCell.swift */; };
+		C467E19D1D756C76005D73F0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467E19C1D756C76005D73F0 /* Location.swift */; };
+		C467E1A01D758B14005D73F0 /* MMDropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C467E19F1D758B14005D73F0 /* MMDropShadow.swift */; };
+		C489F3621D74A014006BBD1C /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489F3611D74A014006BBD1C /* Forecast.swift */; };
+		C4CDC7E31D7A412200EE10F0 /* MMCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDC7E21D7A412200EE10F0 /* MMCell.swift */; };
+		C4CDC7E51D7A46EF00EE10F0 /* MMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CDC7E41D7A46EF00EE10F0 /* MMView.swift */; };
+		C4CDC7E71D7BDA0D00EE10F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CDC7E61D7BDA0D00EE10F0 /* Assets.xcassets */; };
+		C4D962C51D73D9FE00E09E03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D962C41D73D9FE00E09E03 /* Constants.swift */; };
+		C4D962C81D73E61400E09E03 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D962C71D73E61400E09E03 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4627C7B693307DE438F93D0C /* Pods-Daze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daze.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daze/Pods-Daze.release.xcconfig"; sourceTree = "<group>"; };
+		A09C5E13CC31ABC1DFEC9862 /* Pods_Daze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44D14071D734B270011C939 /* Daze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44D140A1D734B270011C939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C44D140C1D734B270011C939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C44D140C1D734B270011C939 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		C44D140F1D734B270011C939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C44D14121D734B270011C939 /* Daze.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daze.xcdatamodel; sourceTree = "<group>"; };
-		C44D14141D734B270011C939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C44D14171D734B270011C939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C44D14191D734B270011C939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44D141F1D73AACC0011C939 /* NexaBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaBold.otf; path = ../NexaBold.otf; sourceTree = "<group>"; };
+		C44D14201D73AACC0011C939 /* NexaLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaLight.otf; path = ../NexaLight.otf; sourceTree = "<group>"; };
+		C44D14241D73ABFD0011C939 /* TextDropShawdow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextDropShawdow.swift; sourceTree = "<group>"; };
+		C467E19A1D755560005D73F0 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		C467E19C1D756C76005D73F0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C467E19F1D758B14005D73F0 /* MMDropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMDropShadow.swift; sourceTree = "<group>"; };
+		C489F3611D74A014006BBD1C /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		C4CDC7E21D7A412200EE10F0 /* MMCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCell.swift; sourceTree = "<group>"; };
+		C4CDC7E41D7A46EF00EE10F0 /* MMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMView.swift; sourceTree = "<group>"; };
+		C4CDC7E61D7BDA0D00EE10F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4D962C41D73D9FE00E09E03 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C4D962C71D73E61400E09E03 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		DCBB0AD082DB62EA0636FD7D /* Pods-Daze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daze/Pods-Daze.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E23536A6AE75E6103440444 /* Pods_Daze.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DFC8543B23A21D0BCAA55AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCBB0AD082DB62EA0636FD7D /* Pods-Daze.debug.xcconfig */,
+				4627C7B693307DE438F93D0C /* Pods-Daze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EE76108D3081874CC7E8D98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A09C5E13CC31ABC1DFEC9862 /* Pods_Daze.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C43418601D734EBF008FE963 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C44D141F1D73AACC0011C939 /* NexaBold.otf */,
+				C44D14201D73AACC0011C939 /* NexaLight.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C44D13FE1D734B270011C939 = {
 			isa = PBXGroup;
 			children = (
 				C44D14091D734B270011C939 /* Daze */,
 				C44D14081D734B270011C939 /* Products */,
+				9DFC8543B23A21D0BCAA55AC /* Pods */,
+				9EE76108D3081874CC7E8D98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +111,49 @@
 		C44D14091D734B270011C939 /* Daze */ = {
 			isa = PBXGroup;
 			children = (
+				C4D962C61D73E5F900E09E03 /* Model */,
+				C4D962C31D73D9EE00E09E03 /* Util */,
+				C44D14231D73ABBF0011C939 /* View */,
+				C43418601D734EBF008FE963 /* Resources */,
 				C44D140A1D734B270011C939 /* AppDelegate.swift */,
-				C44D140C1D734B270011C939 /* ViewController.swift */,
+				C4CDC7E61D7BDA0D00EE10F0 /* Assets.xcassets */,
+				C44D140C1D734B270011C939 /* WeatherVC.swift */,
 				C44D140E1D734B270011C939 /* Main.storyboard */,
-				C44D14141D734B270011C939 /* Assets.xcassets */,
 				C44D14161D734B270011C939 /* LaunchScreen.storyboard */,
 				C44D14191D734B270011C939 /* Info.plist */,
 				C44D14111D734B270011C939 /* Daze.xcdatamodeld */,
+				C467E19A1D755560005D73F0 /* WeatherCell.swift */,
+				C467E19C1D756C76005D73F0 /* Location.swift */,
 			);
 			path = Daze;
+			sourceTree = "<group>";
+		};
+		C44D14231D73ABBF0011C939 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C44D14241D73ABFD0011C939 /* TextDropShawdow.swift */,
+				C467E19F1D758B14005D73F0 /* MMDropShadow.swift */,
+				C4CDC7E21D7A412200EE10F0 /* MMCell.swift */,
+				C4CDC7E41D7A46EF00EE10F0 /* MMView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C4D962C31D73D9EE00E09E03 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C4D962C41D73D9FE00E09E03 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C4D962C61D73E5F900E09E03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4D962C71D73E61400E09E03 /* CurrentWeather.swift */,
+				C489F3611D74A014006BBD1C /* Forecast.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44D141C1D734B270011C939 /* Build configuration list for PBXNativeTarget "Daze" */;
 			buildPhases = (
+				29F78C01209C9F5234C58D60 /* [CP] Check Pods Manifest.lock */,
 				C44D14031D734B270011C939 /* Sources */,
 				C44D14041D734B270011C939 /* Frameworks */,
 				C44D14051D734B270011C939 /* Resources */,
+				3361D048A513274467442983 /* [CP] Embed Pods Frameworks */,
+				01E3D2649F0FE6537E595EA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -101,6 +193,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 595GQGY9Q9;
 						DevelopmentTeamName = "Cory Billeaud";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,22 +221,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44D14211D73AACC0011C939 /* NexaBold.otf in Resources */,
 				C44D14181D734B270011C939 /* LaunchScreen.storyboard in Resources */,
-				C44D14151D734B270011C939 /* Assets.xcassets in Resources */,
+				C44D14221D73AACC0011C939 /* NexaLight.otf in Resources */,
 				C44D14101D734B270011C939 /* Main.storyboard in Resources */,
+				C4CDC7E71D7BDA0D00EE10F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E3D2649F0FE6537E595EA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daze/Pods-Daze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29F78C01209C9F5234C58D60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3361D048A513274467442983 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daze/Pods-Daze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C44D14031D734B270011C939 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44D140D1D734B270011C939 /* ViewController.swift in Sources */,
+				C4CDC7E51D7A46EF00EE10F0 /* MMView.swift in Sources */,
+				C467E1A01D758B14005D73F0 /* MMDropShadow.swift in Sources */,
+				C4D962C51D73D9FE00E09E03 /* Constants.swift in Sources */,
+				C44D140D1D734B270011C939 /* WeatherVC.swift in Sources */,
+				C489F3621D74A014006BBD1C /* Forecast.swift in Sources */,
 				C44D140B1D734B270011C939 /* AppDelegate.swift in Sources */,
+				C467E19D1D756C76005D73F0 /* Location.swift in Sources */,
+				C467E19B1D755560005D73F0 /* WeatherCell.swift in Sources */,
 				C44D14131D734B270011C939 /* Daze.xcdatamodeld in Sources */,
+				C4CDC7E31D7A412200EE10F0 /* MMCell.swift in Sources */,
+				C4D962C81D73E61400E09E03 /* CurrentWeather.swift in Sources */,
+				C44D14251D73ABFD0011C939 /* TextDropShawdow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +412,11 @@
 		};
 		C44D141D1D734B270011C939 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBB0AD082DB62EA0636FD7D /* Pods-Daze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Daze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cory.Daze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +426,11 @@
 		};
 		C44D141E1D734B270011C939 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4627C7B693307DE438F93D0C /* Pods-Daze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Daze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cory.Daze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +457,7 @@
 				C44D141E1D734B270011C939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
