@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="NexaBold.otf">
+            <string>NexaBold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -16,12 +22,56 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg001" translatesAutoresizingMaskIntoConstraints="NO" id="0Kc-au-Syd"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconBG" translatesAutoresizingMaskIntoConstraints="NO" id="Ebx-zm-Idl"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NPm-dT-utj">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daze designed by Cory Billeaud" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzd-DH-9T7">
+                                        <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Icons provided by Noun Project" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPG-KG-OHT">
+                                        <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="11"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather API data provide openweather.org" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckB-bk-TFu">
+                                        <fontDescription key="fontDescription" name="NexaBold" family="Nexa Bold" pointSize="10"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Q6t-uW-bOf"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Kc-au-Syd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="30b-1P-E1j"/>
+                            <constraint firstItem="Ebx-zm-Idl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4bB-U2-egU"/>
+                            <constraint firstItem="NPm-dT-utj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6Wh-Un-FkN"/>
+                            <constraint firstItem="NPm-dT-utj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Aa1-6E-0UI"/>
+                            <constraint firstAttribute="trailing" secondItem="0Kc-au-Syd" secondAttribute="trailing" id="KFX-Qi-9Js"/>
+                            <constraint firstItem="0Kc-au-Syd" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="L6E-fU-nb7"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Ebx-zm-Idl" secondAttribute="bottom" id="O1Q-av-yep"/>
+                            <constraint firstItem="Ebx-zm-Idl" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="V6D-84-dar"/>
+                            <constraint firstAttribute="trailing" secondItem="NPm-dT-utj" secondAttribute="trailing" constant="20" id="YWk-d4-elb"/>
+                            <constraint firstItem="NPm-dT-utj" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="ctl-dd-PxZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ebx-zm-Idl" secondAttribute="trailing" id="mvE-sm-3Ud"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="0Kc-au-Syd" secondAttribute="bottom" id="pjR-fW-DKf"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IconBG" width="1024" height="1024"/>
+        <image name="bg001" width="640" height="1136"/>
+    </resources>
 </document>

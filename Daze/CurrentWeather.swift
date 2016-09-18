@@ -137,10 +137,17 @@ class CurrentWeather {
         return _windSpeed
     }
     
+//    var windDirection: WindDirection {
+//        get {
+//            return _windDirection
+//        }
+//    }
+    
     var windDirection: WindDirection {
-        get {
-            return _windDirection
+        if _windDirection == nil {
+            _windDirection = WindDirection.N
         }
+            return _windDirection
     }
     
     var sunrise: String {
@@ -171,9 +178,9 @@ class CurrentWeather {
         return _rain
     }
     
-    func downloadWeatherDetails(completed: DownloadComplete) {
+    func downloadWeatherDetails(completed: @escaping DownloadComplete) {
     //Alamofire download
-        Alamofire.request(CURRENT_WEATHER_URL, withMethod: .get).responseJSON { response in
+        Alamofire.request(CURRENT_WEATHER_URL, method: .get).responseJSON { response in
             //every response has a result
             let result = response.result
             //print(response) checking for url response in json data

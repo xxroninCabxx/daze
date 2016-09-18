@@ -1,14 +1,13 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
 
 target 'Daze' do
-  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Daze
-pod 'Alamofire',
-:git => 'https://github.com/Alamofire/Alamofire.git',
-:branch => 'swift3'
 
+#  pod 'Alamofire', '~> 3.5'
+  pod 'Alamofire', '~> 4.0'
 
 end

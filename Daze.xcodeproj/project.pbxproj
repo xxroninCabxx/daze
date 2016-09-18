@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E23536A6AE75E6103440444 /* Pods_Daze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09C5E13CC31ABC1DFEC9862 /* Pods_Daze.framework */; };
+		073AFC51BC51C57A4FC0DBE3 /* Pods_Daze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC06F2F4219F8FEB8F8C056 /* Pods_Daze.framework */; };
 		C44D140B1D734B270011C939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D140A1D734B270011C939 /* AppDelegate.swift */; };
 		C44D140D1D734B270011C939 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44D140C1D734B270011C939 /* WeatherVC.swift */; };
 		C44D14101D734B270011C939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44D140E1D734B270011C939 /* Main.storyboard */; };
@@ -28,8 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4627C7B693307DE438F93D0C /* Pods-Daze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daze.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daze/Pods-Daze.release.xcconfig"; sourceTree = "<group>"; };
-		A09C5E13CC31ABC1DFEC9862 /* Pods_Daze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E8A22A7BC226E2AEB68BC7 /* Pods-Daze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daze.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daze/Pods-Daze.release.xcconfig"; sourceTree = "<group>"; };
+		75D0C9439C9B35A030FC5105 /* Pods-Daze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daze/Pods-Daze.debug.xcconfig"; sourceTree = "<group>"; };
 		C44D14071D734B270011C939 /* Daze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44D140A1D734B270011C939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C44D140C1D734B270011C939 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		C4CDC7E61D7BDA0D00EE10F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4D962C41D73D9FE00E09E03 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C4D962C71D73E61400E09E03 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
-		DCBB0AD082DB62EA0636FD7D /* Pods-Daze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daze/Pods-Daze.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC06F2F4219F8FEB8F8C056 /* Pods_Daze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,26 +57,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E23536A6AE75E6103440444 /* Pods_Daze.framework in Frameworks */,
+				073AFC51BC51C57A4FC0DBE3 /* Pods_Daze.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9DFC8543B23A21D0BCAA55AC /* Pods */ = {
+		5855ABEFADEC51A7F9D5E82B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCBB0AD082DB62EA0636FD7D /* Pods-Daze.debug.xcconfig */,
-				4627C7B693307DE438F93D0C /* Pods-Daze.release.xcconfig */,
+				75D0C9439C9B35A030FC5105 /* Pods-Daze.debug.xcconfig */,
+				49E8A22A7BC226E2AEB68BC7 /* Pods-Daze.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9EE76108D3081874CC7E8D98 /* Frameworks */ = {
+		A7673DE8073B3390996E4BB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A09C5E13CC31ABC1DFEC9862 /* Pods_Daze.framework */,
+				ECC06F2F4219F8FEB8F8C056 /* Pods_Daze.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,8 +95,8 @@
 			children = (
 				C44D14091D734B270011C939 /* Daze */,
 				C44D14081D734B270011C939 /* Products */,
-				9DFC8543B23A21D0BCAA55AC /* Pods */,
-				9EE76108D3081874CC7E8D98 /* Frameworks */,
+				5855ABEFADEC51A7F9D5E82B /* Pods */,
+				A7673DE8073B3390996E4BB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,19 +111,17 @@
 		C44D14091D734B270011C939 /* Daze */ = {
 			isa = PBXGroup;
 			children = (
-				C4D962C61D73E5F900E09E03 /* Model */,
-				C4D962C31D73D9EE00E09E03 /* Util */,
-				C44D14231D73ABBF0011C939 /* View */,
-				C43418601D734EBF008FE963 /* Resources */,
 				C44D140A1D734B270011C939 /* AppDelegate.swift */,
+				C4D962C61D73E5F900E09E03 /* Model */,
+				C44D14231D73ABBF0011C939 /* View */,
+				C4FE3D651D85C98B00F9AFE6 /* Controller */,
+				C43418601D734EBF008FE963 /* Resources */,
+				C4D962C31D73D9EE00E09E03 /* Util */,
 				C4CDC7E61D7BDA0D00EE10F0 /* Assets.xcassets */,
-				C44D140C1D734B270011C939 /* WeatherVC.swift */,
 				C44D140E1D734B270011C939 /* Main.storyboard */,
 				C44D14161D734B270011C939 /* LaunchScreen.storyboard */,
 				C44D14191D734B270011C939 /* Info.plist */,
 				C44D14111D734B270011C939 /* Daze.xcdatamodeld */,
-				C467E19A1D755560005D73F0 /* WeatherCell.swift */,
-				C467E19C1D756C76005D73F0 /* Location.swift */,
 			);
 			path = Daze;
 			sourceTree = "<group>";
@@ -143,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				C4D962C41D73D9FE00E09E03 /* Constants.swift */,
+				C467E19C1D756C76005D73F0 /* Location.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -156,6 +155,15 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		C4FE3D651D85C98B00F9AFE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C44D140C1D734B270011C939 /* WeatherVC.swift */,
+				C467E19A1D755560005D73F0 /* WeatherCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44D141C1D734B270011C939 /* Build configuration list for PBXNativeTarget "Daze" */;
 			buildPhases = (
-				29F78C01209C9F5234C58D60 /* [CP] Check Pods Manifest.lock */,
+				4C0E9AB25EE6291AC223A719 /* [CP] Check Pods Manifest.lock */,
 				C44D14031D734B270011C939 /* Sources */,
 				C44D14041D734B270011C939 /* Frameworks */,
 				C44D14051D734B270011C939 /* Resources */,
-				3361D048A513274467442983 /* [CP] Embed Pods Frameworks */,
-				01E3D2649F0FE6537E595EA6 /* [CP] Copy Pods Resources */,
+				8FD5631A097CAA688FE54AEC /* [CP] Embed Pods Frameworks */,
+				966093F72B907D434D6D50C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,22 +240,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01E3D2649F0FE6537E595EA6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daze/Pods-Daze-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		29F78C01209C9F5234C58D60 /* [CP] Check Pods Manifest.lock */ = {
+		4C0E9AB25EE6291AC223A719 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +255,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3361D048A513274467442983 /* [CP] Embed Pods Frameworks */ = {
+		8FD5631A097CAA688FE54AEC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,6 +268,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daze/Pods-Daze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966093F72B907D434D6D50C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daze/Pods-Daze-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -336,10 +344,13 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -384,10 +395,13 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -412,29 +426,37 @@
 		};
 		C44D141D1D734B270011C939 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCBB0AD082DB62EA0636FD7D /* Pods-Daze.debug.xcconfig */;
+			baseConfigurationReference = 75D0C9439C9B35A030FC5105 /* Pods-Daze.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 595GQGY9Q9;
 				INFOPLIST_FILE = Daze/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cory.Daze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C44D141E1D734B270011C939 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4627C7B693307DE438F93D0C /* Pods-Daze.release.xcconfig */;
+			baseConfigurationReference = 49E8A22A7BC226E2AEB68BC7 /* Pods-Daze.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 595GQGY9Q9;
 				INFOPLIST_FILE = Daze/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cory.Daze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

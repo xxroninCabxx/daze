@@ -50,8 +50,7 @@ class WeatherVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         super.viewDidLoad()
         
         imagePicker.delegate = self
-        
-        self.changeBgView.isHidden = true
+        changeBgView.isHidden = true
         
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -59,6 +58,7 @@ class WeatherVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         locationManager.startMonitoringSignificantLocationChanges()
         
         currentWeather = CurrentWeather()
+        
         
         }
     
@@ -88,9 +88,9 @@ class WeatherVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         }
     }
     
-    func downloadForecastData(completed: DownloadComplete) {
+    func downloadForecastData(completed: @escaping DownloadComplete) {
         //Downloading forecast weather data for TableView
-        Alamofire.request(FORECAST_URL, withMethod: .get).responseJSON { response in
+        Alamofire.request(FORECAST_URL, method: .get).responseJSON { response in
             let result = response.result
             
             if let dict = result.value as? Dictionary<String, AnyObject> {
@@ -122,12 +122,15 @@ class WeatherVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = forecastCollection.dequeueReusableCell(withReuseIdentifier: "weatherCell", for: indexPath) as? WeatherCell {
             
+            
             let forecast = forecasts[indexPath.row]
             cell.configureCell(forecast: forecast)
+            //forecasts.capacity.toIntMax(9)
             return cell
             
         } else {
             return WeatherCell()
+            
         }
         
     
@@ -161,27 +164,23 @@ class WeatherVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
     
     @IBAction func bg001(_ sender: UIButton) {
         backGroundImage.image = UIImage(named: "bg001")
-        changeBgView.isHidden = true
     }
     
     @IBAction func bg002(_ sender: UIButton) {
         backGroundImage.image = UIImage(named: "bg002")
-        changeBgView.isHidden = true
     }
     
     @IBAction func bg003(_ sender: UIButton) {
         backGroundImage.image = UIImage(named: "bg003")
-        changeBgView.isHidden = true
+        
     }
     
     @IBAction func bg_004(_ sender: UIButton) {
         backGroundImage.image = UIImage(named: "bg004")
-        changeBgView.isHidden = true
     }
     
     @IBAction func bg005(_ sender: UIButton) {
         backGroundImage.image = UIImage(named: "bg005")
-        changeBgView.isHidden = true
     }
     
     @IBAction func loadImageTapped(_ sender: AnyObject) {
@@ -194,12 +193,12 @@ class WeatherVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
-        backGroundImage.contentMode = .scaleAspectFill
-        backGroundImage.image = pickedImage
+            backGroundImage.contentMode = .scaleAspectFill
+            cameraImage.image = pickedImage
+            backGroundImage.image = pickedImage
         }
+        forecasts.removeAll(keepingCapacity: true)
         dismiss(animated: true, completion: nil)
-        changeBgView.isHidden = true
-        
         
     }
     
@@ -207,5 +206,10 @@ class WeatherVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func dontTappedBtn(_ sender: AnyObject) {
+        changeBgView.isHidden = true
+    }
+
+        
 }
 
