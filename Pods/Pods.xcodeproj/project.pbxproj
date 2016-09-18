@@ -72,6 +72,7 @@
 		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		B9AEA6EFBF8564E7572F55D31379399B /* Pods-Daze-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Daze-resources.sh"; sourceTree = "<group>"; };
 		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		C42972F31D8F5D460089A320 /* Local Podspecs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Local Podspecs"; sourceTree = "<group>"; };
 		C8E1CD094F3563D9BB77586B23B085DD /* Pods-Daze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daze.debug.xcconfig"; sourceTree = "<group>"; };
 		C91BC0407E82E904FA954897CA2D191A /* Pods-Daze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daze.release.xcconfig"; sourceTree = "<group>"; };
 		C95536DA2676EF5C817FA68A2CFB8191 /* Pods-Daze-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Daze-umbrella.h"; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				C42972F31D8F5D460089A320 /* Local Podspecs */,
 				200D10EB20F0397D47F022B50CF0433F /* Alamofire */,
 			);
 			name = Pods;

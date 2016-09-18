@@ -331,7 +331,9 @@
 /* Begin XCBuildConfiguration section */
 		C44D141A1D734B270011C939 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D0C9439C9B35A030FC5105 /* Pods-Daze.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -382,7 +384,9 @@
 		};
 		C44D141B1D734B270011C939 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E8A22A7BC226E2AEB68BC7 /* Pods-Daze.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

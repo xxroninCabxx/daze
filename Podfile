@@ -7,7 +7,6 @@ target 'Daze' do
   use_frameworks!
 
 
-#  pod 'Alamofire', '~> 3.5'
   pod 'Alamofire', '~> 4.0'
 
 end
